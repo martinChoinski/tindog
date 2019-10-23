@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* title  ection */
+#title {
+  background-color: #ef2c60;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#title .row h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.fa-google-play {
+    height: 1rem;
+    color: #fff;
+}
+
+#iphone {
+  width: 70%;
+}
+
+@media (min-width: 992px) {
+  #iphone {
+    transform: scale(.8) translate(.5rem, -5rem) rotate(25deg) ;
+    position: absolute;
+    right: 30%;
+  }
+  #title .row h1 {
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 1.4;
+  }
+}
+
+
+/*features section*/
+#features {
+  position: relative;
+  background-color: white;
+}
+.feature {
+  margin-top: 2rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.feature svg {
+  width: 4rem;
+  color: #ed7185;
+  padding-bottom: 1rem;
+}
+
+.feature svg:hover {
+  color: #ef2c60;
+}
+
+.feature h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  color: #8f8f8f;
+}
+
+
+
+/*testimonials*/
+#testimonials {
+  text-align: center;
+  background-color: #e07776;
+  color: white;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 15% 5%;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+#testimonials img {
+  border-radius: 50%;
+  width: 20%;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  #testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  #testimonials img {
+    width: 13%;
+  }
+}
+
+
+/*press secton*/
+#press {
+  padding: 0% 15% 3%;
+  text-align: center;
+  background-color: #e07776;
+  color: white;
+}
+
+#press img {
+  border-radius: 5%;
+  width: 15%;
+  margin: 1rem;
+}
+
+/*pricing section*/
+#pricing {
+  width: 70%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+#pricing .card {
+  border-radius: 10%;
+}
+
+#pricing .card-header {
+  border-radius: 30%;
+}
+
+#pricing h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+#pricing h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/*call to action section*/
+#cta {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #e07776;
+  color: white;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+
+/*footer section*/
+#footer{
+  text-align: center;
+  background-color: #ddd;
+  color: #222;
+  padding: 3%;
+}
