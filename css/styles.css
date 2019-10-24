@@ -35,8 +35,13 @@ body {
 }
 
 .fa-google-play {
-    height: 1rem;
-    color: #fff;
+  height: 1rem;
+  color: #fff;
+}
+
+.btn-google-play:hover {
+  background-color: #ee1c50;
+  color: #fff;
 }
 
 #iphone {
@@ -56,6 +61,11 @@ body {
   }
 }
 
+@media (max-width: 767.98px) {
+  #title .row {
+    text-align: center;
+  }
+}
 
 /*features section*/
 #features {
@@ -169,7 +179,7 @@ body {
 #cta {
   padding: 5% 15%;
   text-align: center;
-  background-color: #e07776;
+  background-color: #ef2c60;
   color: white;
 }
 
@@ -181,10 +191,23 @@ body {
 }
 
 
+
 /*footer section*/
-#footer{
+#footer {
   text-align: center;
   background-color: #ddd;
-  color: #222;
+  color: #777;
   padding: 3%;
+}
+
+.footer-icon {
+  height: 1rem;
+  margin: .5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  height: 1.4rem;
+  color: #111;
 }
