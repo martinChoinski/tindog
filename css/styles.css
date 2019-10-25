@@ -1,15 +1,27 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.fa-google-play {
+  height: 1rem;
+  color: #fff;
+}
+
+.btn-google-play:hover {
+  background-color: #ee1c50;
+  color: #fff;
 }
 
 /* title  ection */
 #title {
   background-color: #ef2c60;
   color: white;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .navbar{
@@ -32,16 +44,6 @@ body {
   font-weight: 400;
   font-size: 2.5rem;
   line-height: 1.1;
-}
-
-.fa-google-play {
-  height: 1rem;
-  color: #fff;
-}
-
-.btn-google-play:hover {
-  background-color: #ee1c50;
-  color: #fff;
 }
 
 #iphone {
@@ -67,15 +69,16 @@ body {
   }
 }
 
+
 /*features section*/
 #features {
   position: relative;
   background-color: white;
 }
+
 .feature {
   margin-top: 2rem;
   padding: 3rem;
-  text-align: center;
 }
 
 .feature svg {
@@ -98,10 +101,8 @@ body {
 }
 
 
-
 /*testimonials*/
 #testimonials {
-  text-align: center;
   background-color: #e07776;
   color: white;
 }
@@ -126,7 +127,6 @@ body {
   #testimonials h2 {
     font-size: 3rem;
     line-height: 1.5;
-    font-weight: 500;
   }
   #testimonials img {
     width: 13%;
@@ -136,8 +136,7 @@ body {
 
 /*press secton*/
 #press {
-  padding: 0% 15% 3%;
-  text-align: center;
+  padding: 0 15% 3%;
   background-color: #e07776;
   color: white;
 }
@@ -148,11 +147,11 @@ body {
   margin: 1rem;
 }
 
+
 /*pricing section*/
 #pricing {
   width: 70%;
   margin: 5rem auto;
-  text-align: center;
 }
 
 #pricing .card {
@@ -175,10 +174,10 @@ body {
   font-weight: 500;
 }
 
+
 /*call to action section*/
 #cta {
   padding: 5% 15%;
-  text-align: center;
   background-color: #ef2c60;
   color: white;
 }
@@ -191,10 +190,8 @@ body {
 }
 
 
-
 /*footer section*/
 #footer {
-  text-align: center;
   background-color: #ddd;
   color: #777;
   padding: 3%;
